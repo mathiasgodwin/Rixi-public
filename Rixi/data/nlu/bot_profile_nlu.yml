@@ -1,0 +1,31 @@
+version: "2.0"
+nlu:
+- intent: ask_bot_name
+  examples: |
+    - what is your name?
+    - got a name?
+    - your name?
+    - your name pls?
+    - should i call you bot?
+    - I will be calling you bot?
+    - what can i call you?
+    - do you have a name?
+    - am I free to call you anything?
+    - what thing is your name dude?
+    - what on earth is your name?
+- intent: ask_bot_developed_date                                                
+  examples: |                                                                   
+    - when where you created?                                                   
+    - what is your birthday?                                                    
+    - when where you made?                                                      
+    - your birthdate? 
+- intent: ask_bot_developer
+  examples: |
+    - who is your developer?
+    - who program you?
+    - who programmed you?
+    - you're developed by?
+    - who made you?
+    - who code you up?
+    - who created you and your component?
+    - someone must have built you

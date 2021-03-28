@@ -1,0 +1,14 @@
+version: "2.0"
+nlu:
+  - lookup: location
+    examples: |
+      - Akure
+      - Ikeja
+      - Oyo
+      - Ikare Akoko
+      - Ogbese
+      - Chicago
+      - New york city
+      - NYC
+      - California
+      - Florida

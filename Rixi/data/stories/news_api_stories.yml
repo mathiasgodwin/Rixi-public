@@ -1,0 +1,50 @@
+version: "2.0"
+stories:
+- story: news_us
+  steps:
+  - action: utter_cold_start
+  - intent: news_headline
+  - action: utter_newsheadline
+  - intent: news_us
+  - action: action_news_headline_us
+- story: news_india
+  steps:
+  - action: utter_cold_start
+  - intent: news_headline
+  - action: utter_newsheadline
+  - intent: news_india
+  - action: action_news_headline_india
+- story: news_australia
+  steps:
+  - action: utter_cold_start
+  - intent: news_headline
+  - action: utter_newsheadline
+  - intent: news_australia
+  - action: action_news_headline_au
+- story: bbc_news
+  steps:
+  - action: utter_cold_start
+  - intent: news_from_source
+  - action: utter_newssource
+  - intent: bbc_news
+  - action: action_news_bbc
+- story: abc_news
+  steps:
+  - action: utter_cold_start
+  - intent: news_from_source
+  - action: utter_newssource
+  - intent: abc_news
+  - action: action_news_abc
+- story: cnn_news
+  steps:
+  - action: utter_cold_start
+  - intent: news_from_source
+  - action: utter_newssource
+  - intent: cnn_news
+  - action: action_news_cnn
+- story: search_news 
+  steps:
+  - action: utter_cold_start
+  - intent: search_news
+  - action: search_form
+  - action: action_news_search

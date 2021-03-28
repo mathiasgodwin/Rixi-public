@@ -1,0 +1,10 @@
+version: '2.0'
+intents:
+- ask_weather
+responses:
+  utter_ask_location:
+  - text: what is the location 🌍 ?
+  - text: Can I know the location?
+  - text: What location actually 🗺?
+  - text: And the location is?
+  - text: Tell me the location detail.

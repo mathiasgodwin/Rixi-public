@@ -1,0 +1,59 @@
+version: '2.0'
+intents:
+  - news_headline
+  - bbc_news
+  - news_us
+  - news_india
+  - news_australia
+  - news_from_source
+  - abc_news
+  - cnn_news
+  - search_news
+
+
+slots: 
+  topic:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: true
+    
+responses:
+  utter_cold_start:
+  - buttons: 
+    - payload: /news_headline
+      title: "News Headline" 
+    - payload: /news_from_source
+      title: "NEWS from Specefic Source"
+    - payload: /search_news
+      title: "Search News"
+    text: "To know about latest news please select an option" 
+  utter_newsheadline:
+  - buttons: 
+    - payload: /news_us
+      title: "News Headline US" 
+    - payload: /news_india
+      title: "News Headline India"
+    - payload: /news_australia
+      title: "News Headline Australia"    
+    text: "Please select an option from below" 
+  utter_newssource:
+  - buttons: 
+    - payload: /bbc_news
+      title: "BBC NEWS" 
+    - payload: /abc_news
+      title: "ABC NEWS"
+    - payload: /cnn_news
+      title: "CNN NEWS"    
+    text: "Please select any source from below"
+  utter_ask_topic:
+  - text: "Please enter a topic to search"
+
+actions:
+- action_news_headline_us
+- action_news_bbc
+- action_news_headline_india
+- action_news_headline_au
+- action_news_abc
+- action_news_cnn
+- action_news_search

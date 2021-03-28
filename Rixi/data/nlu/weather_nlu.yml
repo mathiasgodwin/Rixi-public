@@ -1,0 +1,43 @@
+version: "2.0"
+nlu:
+- intent: ask_weather
+  examples: |
+    - The weather condition for [London](location)
+    - For [Ekiti](location)
+    - [Ondo](location)
+    - [California](location)
+    - Condition for [Akure city](location)
+    - [Ekiti](location) weather.
+    - what is the weather condition of [Akure](location)
+    - tell me the current weather of [Abuja](location)
+    - what is the weather in [Lagos](location)
+    - I want to check for the weather.
+    - check for the weather right now.
+    - get deatail about the current.
+    - Check the weather for me pls.
+    - I want to check the weather
+    - [Lekki](location)
+    - the location is [Tokyo](location)
+    - this is the location [Uganda](location)
+    - that is the location [Ilawe Ekiti](location)
+    - try this one [Ijebu ode](location)
+    - what about this [Owo](location)
+    - tell the humidity of [Akure](location)
+    - what is the temperature of [CA](location)
+    - what is the wind speed of [Ore](location)
+    - [New york city](city)
+    - [Lekki island](location)
+    - what is the weather condition of [Akure city](location)
+    - check the weather of this location [Ise Ekiti](location)
+    - [Tokyo](location)
+    - [Nigeria](location)
+    - [Ikeja](location)
+    - [Kogi](location)
+    - [Florida](location)
+
+- synonym: weather
+  examples: |
+    - temperature
+    - humidity
+    - atmospheric condition
+    - atmosferic condition

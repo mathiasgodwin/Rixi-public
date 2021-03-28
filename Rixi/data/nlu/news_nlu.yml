@@ -1,0 +1,45 @@
+version: "2.0"
+nlu:
+- intent: news_headline
+  examples: |
+    - News Headline
+    - news headline
+    - News Headlines
+    - news headlines
+- intent: news_us
+  examples: |
+    - News Headline US
+    - news headline us
+    - us news headlines
+- intent: news_india
+  examples: |
+    - News Headline India
+    - news headline india
+    - india news headline
+- intent: news_australia
+  examples: |
+    - News Headline Australia
+    - news headline Australia
+    - Australia news headline
+- intent: news_from_source
+  examples: |
+    - NEWS from Specefic Source
+    - news from specefic source
+- intent: bbc_news
+  examples: |
+    - BBC NEWS
+    - bbc news
+    - BBC news
+- intent: abc_news
+  examples: |
+    - ABC NEWS
+    - abc news
+    - ABC news
+- intent: cnn_news
+  examples: |
+    - CNN NEWS
+    - cnn news
+- intent: search_news
+  examples: |
+    - Search News
+    - search news
