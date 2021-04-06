@@ -2,7 +2,7 @@ version: "2.0"
 intents:
 - ask_bot_developer
 - ask_bot_name
-reponses:
+responses:
   utter_bot_name:
   - text: I'm Rixi by name, I must say I love my name so much!
   - text: Call me Rixi.
