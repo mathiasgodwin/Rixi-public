@@ -174,7 +174,6 @@ nlu:
     - what is your birthday?                                                    
     - when where you made?                                                      
     - your birthdate? 
-- intent: ask_bot_developer
 - intent: smalltalk_agent_boring
   examples: |
     - you are boring
