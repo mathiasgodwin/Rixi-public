@@ -343,4 +343,3 @@ stories:
 - story: path_smalltalk_agent_help
   steps:
   - intent: smalltalk_agent_help
-  - action: utter_how_can_help
