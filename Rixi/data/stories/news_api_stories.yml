@@ -46,5 +46,4 @@ stories:
   steps:
   - action: utter_cold_start
   - intent: search_news
-  - action: search_form
   - action: action_news_search

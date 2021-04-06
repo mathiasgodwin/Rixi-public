@@ -1,23 +1,20 @@
 version: '2.0'
 intents:
-  - news_headline
-  - bbc_news
-  - news_us
-  - news_india
-  - news_australia
-  - news_from_source
-  - abc_news
-  - cnn_news
-  - search_news
-
-
-slots: 
+- news_us
+- news_india
+- news_australia
+- news_from_source
+- abc_news
+- cnn_news
+- news_headline
+- bbc_news
+- search_news
+slots:
   topic:
     type: rasa.shared.core.slots.TextSlot
     initial_value: null
     auto_fill: true
     influence_conversation: true
-    
 responses:
   utter_cold_start:
   - buttons: 

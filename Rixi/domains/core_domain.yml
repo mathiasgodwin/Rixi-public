@@ -2,18 +2,10 @@ version: '2.0'
 config:
   store_entities_as_slots: true
 session_config:
-  session_expiration_time: 60
-  carry_over_slots_to_new_session: false
+  session_expiration_time: 480
+  carry_over_slots_to_new_session: true
 
-entities:
-- location
-- city
-slots:
-  location:
-    type: rasa.shared.core.slots.TextSlot
-    initial_value: null
-    auto_fill: true
-    influence_conversation: true
+
 responses:
   utter_how_can_help:
   - text: " I can help you get the WEATHER condition of a particular place. 
@@ -25,10 +17,5 @@ responses:
         \n
        ⛈️What is the weather condition of Accra.
        \n
-       🚴‍♂️️get me BBC news update today!
+       🚴‍♂️️Get me BBC news update today!
 
-actions:
-- action_weather
-- action_news
-forms: {}
-e2e_actions: []

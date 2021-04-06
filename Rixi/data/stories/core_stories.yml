@@ -9,30 +9,9 @@ stories:
   - slot_was_set:
     - location: Lekki
   - action: action_weather
-  - intent: smalltalk_appraisal_thank_you
-  - action: utter_smalltalk_appraisal_thank_you
   - action: action_restart
-
+  
 - story: interactive_story_1
-  steps:
-  - intent: ask_weather
-    entities:
-    - location: Lagos
-  - slot_was_set:
-    - location: Lagos
-  - action: action_weather
-  - action: action_restart
-
-- story: interactive_story_2
-  steps:
-  - intent: ask_weather
-    entities:
-    - location: Lagos
-  - slot_was_set:
-    - location: Lagos
-  - action: action_weather
-  - action: action_restart
-- story: interactive_story_3
   steps:
   - intent: ask_weather
   - action: utter_ask_location
@@ -40,66 +19,18 @@ stories:
     entities:
     - location: Benue
   - slot_was_set:
-    - location: Lagos
+    - location: Benue
   - action: action_weather
   - action: action_restart
   
-- story: story_4
+- story: story_2
   steps:
-  - intent: ask_weather
-  - action: utter_ask_location
-  - intent: ask_weather
-    entities:
-    - location: Lekki
-  - slot_was_set:
-    - location: Lekki
-  - action: action_weather
-  - intent: smalltalk_appraisal_thank_you
-  - action: utter_smalltalk_appraisal_thank_you
-  - action: utter_smalltalk_agent_something_else
+  - intent: smalltalk_greetings_bye
+  - action: utter_smalltalk_greetings_bye
   - action: action_restart
-  
-- story: story 5
+
+- story: story_3
   steps:
-  - intent: ask_weather
-  - action: utter_ask_location
-  - intent: ask_weather
-    entities:
-    - location: Akure
-  - action: action_weather
-  - slot_was_set:
-    - location: Akure
-  - action: action_weather
   - intent: smalltalk_appraisal_thank_you
   - action: utter_smalltalk_appraisal_thank_you
-  - action: action_restart
-  
-- story: story 6
-  steps:
-  - intent: ask_weather
-  - action: utter_ask_location
-  - intent: ask_weather
-    entities:
-    - location: Akure
-  - slot_was_set:
-    - location: Akure
-  - action: action_weather
-  - intent: smalltalk_appraisal_thank_you
-  - action: utter_smalltalk_appraisal_thank_you
-  - action: utter_smalltalk_agent_something_else
-  - action: action_restart
-  
-- story: story 7
-  steps:
-  - intent: ask_weather
-  - action: utter_ask_location
-  - intent: ask_weather
-    entities:
-    - location: Akure
-  - slot_was_set:
-    - location: Akure
-  - action: action_weather
-  - intent: smalltalk_appraisal_thank_you
-  - action: utter_smalltalk_appraisal_thank_you
-  - action: utter_smalltalk_agent_something_else
   - action: action_restart

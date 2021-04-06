@@ -170,6 +170,11 @@ nlu:
     - date of your birthday
     - when were you born
     - what's your birthday
+    - when where you created?                                                   
+    - what is your birthday?                                                    
+    - when where you made?                                                      
+    - your birthdate? 
+- intent: ask_bot_developer
 - intent: smalltalk_agent_boring
   examples: |
     - you are boring

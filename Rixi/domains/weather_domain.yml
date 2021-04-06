@@ -1,6 +1,15 @@
 version: '2.0'
 intents:
 - ask_weather
+
+entities:
+- location
+slots:
+  location:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: true
 responses:
   utter_ask_location:
   - text: what is the location 🌍 ?
@@ -8,3 +17,6 @@ responses:
   - text: What location actually 🗺?
   - text: And the location is?
   - text: Tell me the location detail.
+  
+actions:
+- action_weather

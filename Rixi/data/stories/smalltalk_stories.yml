@@ -136,10 +136,6 @@ stories:
   steps:
   - intent: smalltalk_appraisal_no_problem
   - action: utter_smalltalk_appraisal_no_problem
-- story: path_smalltalk_appraisal_thank_you
-  steps:
-  - intent: smalltalk_appraisal_thank_you
-  - action: utter_smalltalk_appraisal_thank_you
 - story: path_smalltalk_appraisal_welcome
   steps:
   - intent: smalltalk_appraisal_welcome
@@ -188,10 +184,6 @@ stories:
   steps:
   - intent: smalltalk_emotions_wow
   - action: utter_smalltalk_emotions_wow
-- story: path_smalltalk_greetings_bye
-  steps:
-  - intent: smalltalk_greetings_bye
-  - action: utter_smalltalk_greetings_bye
 - story: path_smalltalk_greetings_goodevening
   steps:
   - intent: smalltalk_greetings_goodevening

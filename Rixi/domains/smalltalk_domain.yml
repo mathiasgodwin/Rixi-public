@@ -90,7 +90,6 @@ intents:
 - smalltalk_agent_human_handoff
 - smalltalk_agent_help
 - smalltalk_user_deny
-
 responses:
   utter_smalltalk_agent_acquaintance:
   - text: "I'm a conversational app."
@@ -564,7 +563,7 @@ responses:
   utter_default:
   - text: Question kinda out of my scope, pls rephrase
   - text: Didn't really understand, rephrase that pls.
-  - text: I don't get it, how about rephrasing that ☺
+  - text: I don't get it, how about rephrasing that ☝️.
   
   utter_smalltalk_agent_did_that_help:
   - text: Did that help you?

@@ -13,13 +13,6 @@ nlu:
     - am I free to call you anything?
     - what thing is your name dude?
     - what on earth is your name?
-- intent: ask_bot_developed_date                                                
-  examples: |                                                                   
-    - when where you created?                                                   
-    - what is your birthday?                                                    
-    - when where you made?                                                      
-    - your birthdate? 
-- intent: ask_bot_developer
   examples: |
     - who is your developer?
     - who program you?

@@ -6,23 +6,20 @@ pipeline:
 - name: SpacyTokenizer
 - name: SpacyFeaturizer
 - name: RegexFeaturizer
-  pooling: mean
 - name: LexicalSyntacticFeaturizer
-- name: CountVectorsFeaturizers
-- name: CountVectorsFeaturizers
+- name: CountVectorsFeaturizer
+- name: CountVectorsFeaturizer
   analyzer: "char_wb"
   min_ngram: 1
   max_ngram: 4
 - name: SpacyEntityExtractor
   dimensions: ["LOC", "PERSON"]
-  analyzer: char_wb
-  min_ngram: 1
-  max_ngram: 4
 - name: DIETClassifier
   epochs: 100
 - name: FallbackClassifier
   threshold: 0.3
   ambiguity_threshold: 0.1
+
 policies:
 - name: AugmentedMemoizationPolicy
 - name: TEDPolicy
@@ -31,5 +28,4 @@ policies:
   batch_size:
   - 32
   - 64
-- max_history: 6
 - name: RulePolicy

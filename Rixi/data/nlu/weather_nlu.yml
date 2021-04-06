@@ -25,7 +25,7 @@ nlu:
     - tell the humidity of [Akure](location)
     - what is the temperature of [CA](location)
     - what is the wind speed of [Ore](location)
-    - [New york city](city)
+    - [New york city](location)
     - [Lekki island](location)
     - what is the weather condition of [Akure city](location)
     - check the weather of this location [Ise Ekiti](location)
