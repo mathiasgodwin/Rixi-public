@@ -13,7 +13,6 @@ nlu:
     - am I free to call you anything?
     - what thing is your name dude?
     - what on earth is your name?
-  examples: |
     - who is your developer?
     - who program you?
     - who programmed you?
