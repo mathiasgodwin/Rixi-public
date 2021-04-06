@@ -16,6 +16,7 @@ pipeline:
   dimensions: ["LOC", "PERSON"]
 - name: DIETClassifier
   epochs: 100
+- name: EntitySynonymMapper
 - name: FallbackClassifier
   threshold: 0.3
   ambiguity_threshold: 0.1
@@ -28,4 +29,3 @@ policies:
   batch_size:
   - 32
   - 64
-- name: RulePolicy

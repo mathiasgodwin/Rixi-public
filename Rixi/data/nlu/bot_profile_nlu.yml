@@ -13,6 +13,9 @@ nlu:
     - am I free to call you anything?
     - what thing is your name dude?
     - what on earth is your name?
+    - have you got any name?
+- intent: ask_bot_developer
+  examples: |
     - who is your developer?
     - who program you?
     - who programmed you?

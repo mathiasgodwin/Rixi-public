@@ -340,7 +340,3 @@ stories:
   steps:
   - intent: smalltalk_agent_human_handoff
   - action: utter_smalltalk_agent_human_handoff
-- story: path_tell_user_name
-  steps:
-  - intent: tell_user_name
-  - action: utter_tell_user_name_proceed

@@ -1,0 +1,10 @@
+version: '2.0'
+stories:
+- story: path_ask_bot_name
+  steps:
+  - intent: ask_bot_name
+  - action: utter_bot_name
+- story: path_ask_bot_developer
+  steps:
+  - intent: ask_bot_developer
+  - action: utter_bot_developer
