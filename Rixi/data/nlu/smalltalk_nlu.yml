@@ -1931,6 +1931,11 @@ nlu:
     - how do I use this
     - how can you help me
     - What are the things that you can do?
+    - are you capable of anything yet?
+    - what are you capable of?
+    - what are your capability?
+    - can you do anything yet?
+    - what else can you do?
 - intent: smalltalk_user_deny
   examples: |
     - no

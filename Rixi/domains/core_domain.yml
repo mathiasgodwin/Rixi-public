@@ -5,7 +5,6 @@ session_config:
   session_expiration_time: 480
   carry_over_slots_to_new_session: true
 
-
 responses:
   utter_how_can_help:
   - text: " I can help you get the WEATHER condition of a particular place. 
