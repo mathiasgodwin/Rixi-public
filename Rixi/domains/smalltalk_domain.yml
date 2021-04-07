@@ -1,4 +1,9 @@
-version: "2.0"
+version: '2.0'
+config:
+  store_entities_as_slots: true
+session_config:
+  session_expiration_time: 480
+  carry_over_slots_to_new_session: true
 intents:
 - smalltalk_agent_acquaintance
 - smalltalk_agent_age
@@ -576,3 +581,16 @@ responses:
   utter_smalltalk_agent_human_handoff:
   - text: I'm sorry all Agent are kinda busy right now... You might try again in a few minutes or there about.
   - text: All hands seems to be on deck in there... Try again in moment.
+
+  utter_how_can_help:
+  - text: " I can help you get the WEATHER condition of a particular place. 
+            \n
+            Also I can get you update about happenings around the globe and lot more.
+            \n\n
+            Just ask few things and I'll do my best to help."
+  - text: " You can ask me something like this... 
+        \n
+       ⛈️What is the weather condition of Accra.
+       \n
+       🚴‍♂️️Get me BBC news update today!
+
