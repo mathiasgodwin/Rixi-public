@@ -15,7 +15,7 @@ nlu:
   examples: |
     - News Headline Nigeria
     - news headline Nigeria
-    - india news headline
+    - nigeria news headline
 - intent: news_australia
   examples: |
     - News Headline Australia

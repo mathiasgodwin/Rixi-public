@@ -1,7 +1,6 @@
 version: '2.0'
 intents:
 - ask_weather
-
 entities:
 - location
 slots:

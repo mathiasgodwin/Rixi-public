@@ -26,6 +26,8 @@ nlu:
     - what is the temperature of [CA](location)
     - what is the wind speed of [Ore](location)
     - [New york city](location)
+    - [New york](location)
+    - [NYC](location)
     - [Lekki island](location)
     - what is the weather condition of [Akure city](location)
     - check the weather of this location [Ise Ekiti](location)

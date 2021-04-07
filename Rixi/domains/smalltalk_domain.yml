@@ -4,6 +4,7 @@ config:
 session_config:
   session_expiration_time: 480
   carry_over_slots_to_new_session: true
+
 intents:
 - smalltalk_agent_acquaintance
 - smalltalk_agent_age
@@ -592,5 +593,7 @@ responses:
         \n
        ⛈️What is the weather condition of Accra.
        \n
-       🚴‍♂️️Get me BBC news update today!
+       🚴‍♂️️Get me BBC news update today!"
+
+
 
