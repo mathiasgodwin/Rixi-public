@@ -13,8 +13,8 @@ nlu:
     - us news headlines
 - intent: news_india
   examples: |
-    - News Headline India
-    - news headline india
+    - News Headline Nigeria
+    - news headline Nigeria
     - india news headline
 - intent: news_australia
   examples: |

@@ -1,6 +1,7 @@
 from rasa_sdk import Action
 from rasa_sdk.events import SlotSet
 
+apikey = '1b490d719183c8cbeda0577c9b7144e4' # Not for commercial usage pls. Strictly for development and testing! 
 
 """Custom Action to fetch weather data from (api.weatherstack.com)."""
 class ActionWeather(Action):
@@ -14,7 +15,7 @@ class ActionWeather(Action):
         if loc != None:
             try:
                 params = {
-                  'access_key': '1b490d719183c8cbeda0577c9b7144e4',
+                  'access_key': apikey,
                   'query': loc
                 }
                 
@@ -40,7 +41,7 @@ class ActionWeather(Action):
                 #wind_mph      = "Not available"
                 responses = [
                 """I can't connect to the internet. \n\nCheck your internet connection and try again.""",
-                """Can really find me way to the internet...\n\nWill you check your internet connection please!"""
+                """Can't really find me way to the internet...\n\nWill you check your internet connection please!"""
                 """You don't seems to have an internet connection.\n\nHow about checking and try again, I'll be waiting!"""
                 ]
                 dispatcher.utter_message(responses)

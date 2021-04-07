@@ -1,7 +1,7 @@
 version: '2.0'
 intents:
 - news_us
-- news_india
+- news_nigeria
 - news_australia
 - news_from_source
 - abc_news
@@ -29,8 +29,8 @@ responses:
   - buttons: 
     - payload: /news_us
       title: "News Headline US" 
-    - payload: /news_india
-      title: "News Headline India"
+    - payload: /news_nigeria
+      title: "News Headline Nigeria"
     - payload: /news_australia
       title: "News Headline Australia"    
     text: "Please select an option from below" 
@@ -49,8 +49,9 @@ responses:
 actions:
 - action_news_headline_us
 - action_news_bbc
-- action_news_headline_india
+- action_news_headline_nigeria
 - action_news_headline_au
 - action_news_abc
 - action_news_cnn
 - action_news_search
+- search_form
