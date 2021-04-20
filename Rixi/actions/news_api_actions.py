@@ -89,7 +89,7 @@ class NewsABC(Action):
                         "payload": {
                             "template_type": "generic",
                             "elements": [
-                                                        {
+                                                       {
                                     "title": data['articles'][i]['title'],
                                     "image_url":data['articles'][i]['urlToImage'],
                                     "subtitle": data['articles'][i]['description'],
@@ -198,7 +198,7 @@ class NewsheadlineNigeria(Action):
                            "elements": [
                                                        {
                                    "title": data['articles'][i]['title'],
-                                   "image_url":data['articles'][i]['urlToImage'],
+                                   "image_url": data['articles'][i]['urlToImage'],
                                    "subtitle": data['articles'][i]['description'],
                                    "buttons": [
                                        {

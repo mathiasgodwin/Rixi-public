@@ -49,7 +49,7 @@ responses:
 actions:
 - action_news_headline_us
 - action_news_bbc
-- action_news_headline_nigeria
+- action_news_headline_ng
 - action_news_headline_au
 - action_news_abc
 - action_news_cnn
